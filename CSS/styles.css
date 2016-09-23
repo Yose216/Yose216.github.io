@@ -1,0 +1,134 @@
+/* font and height of text*/
+
+h1 {
+    font-weight: bolder!important;
+}
+
+h1,
+h2 {
+    font-family: 'Open Sans', sans-serif!important;
+}
+
+h3,
+h4 {
+    font-family: 'Raleway', sans-serif!important;
+}
+
+p,
+a {
+    font-family: 'Roboto', sans-serif!important;
+}
+
+
+/*css carrousel*/
+
+.carousel {
+    height: 600px;
+    position: relative;
+    clear: both;
+    overflow: hidden;
+    background: #FFF;
+}
+
+.carousel img {
+    visibility: hidden;
+    cursor: pointer;
+    height: 550px;
+    width: 700px;
+}
+
+
+/*space in the portfolio*/
+
+.portfolio {
+    margin-top: 100px;
+}
+
+.html_css {
+    margin-top: 50px;
+}
+
+.imgHtlmCss,
+.wpImg,
+.jsImg,
+.jQImg,
+.phpImg {
+    margin-top: 50px!important;
+}
+
+.wp,
+.js,
+.jQuery {
+    margin-top: 150px;
+}
+
+.wp h3 {
+    padding-left: 20px;
+}
+
+.Moi {
+    margin-top: 90px;
+    padding-bottom: 50px;
+}
+
+.cv {
+    margin-top: 30px;
+}
+
+.contact {
+    margin-top: 80px;
+    padding-bottom: 50px;
+}
+
+.contInput {
+    padding-bottom: 20px;
+}
+
+form {
+    padding-top: 50px;
+}
+
+.php {
+    margin-top: 90px;
+}
+
+.texteAbout h3 {
+    margin-top: 0px!important;
+}
+
+.Photo {
+    margin-top: 5px;
+}
+
+
+/*Colors of portfolio*/
+
+.cv a:hover {
+    background-color: darkgrey!important;
+    border-color: darkgrey;
+}
+
+.cv a {
+    background-color: #222222!important;
+    border-color: #222222;
+}
+
+i {
+    padding-left: 10px;
+    color: #222222;
+    padding-bottom: 10px;
+}
+
+i:hover {
+    color: darkgrey;
+}
+
+form button {
+    background-color: #222222!important;
+    border-color: #222222!important;
+}
+
+form button:hover {
+    background-color: darkgrey!important;
+    border-color: darkgrey!important;
+}
