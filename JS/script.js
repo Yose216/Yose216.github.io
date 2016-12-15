@@ -50,8 +50,14 @@ $(document).ready(function(){
 	$(".chevron4").click(function(){
         $("#carouseljQuery").slideToggle("slow");
     });
+	$(".chevron6").click(function(){
+        $("#carouselPhp").slideToggle("slow");
+    });
 	$(".chevron5").click(function(){
         $("#aboutMe").slideToggle("slow");
+    });
+	$(".chevron7").click(function(){
+        $("#carouselFram").slideToggle("slow");
     });
 	$(".mail").click(function(){
         $("#contact").slideToggle("slow");
@@ -78,6 +84,24 @@ $(document).ready(function(){
 	});
 	$( ".jQImg" ).mouseover(function() {
 		$('.jQImg').addClass('animated pulse').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', 
+		function () {
+			$(this).removeClass('animated pulse');
+		});
+	});
+	$( ".phpImg" ).mouseover(function() {
+		$('.phpImg').addClass('animated pulse').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', 
+		function () {
+			$(this).removeClass('animated pulse');
+		});
+	});
+	$( ".imgSym" ).mouseover(function() {
+		$('.imgSym').addClass('animated pulse').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', 
+		function () {
+			$(this).removeClass('animated pulse');
+		});
+	});
+	$( ".imgSil" ).mouseover(function() {
+		$('.imgSil').addClass('animated pulse').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', 
 		function () {
 			$(this).removeClass('animated pulse');
 		});
