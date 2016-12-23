@@ -77,6 +77,20 @@ a {
 	margin-top: 50px;
 }
 
+.mailYou {
+	font-size: 24px;
+	color: white;
+	text-decoration: none;
+	padding-left: 0.4em;
+	margin-top: 1em!important;
+}
+
+.mailYou:hover {
+	text-decoration: none;
+	color: white;
+}
+
+
 .imgHtlmCss,
 .wpImg,
 .jsImg,
@@ -108,7 +122,12 @@ a {
 	padding-bottom: 50px;
 }
 
-.mail {
+.mail{
+	color: #202459;
+	padding-left: 1em;
+}
+
+.mail2 {
 	color: #202459;
 	padding-left: 1em;
 }
