@@ -86,7 +86,7 @@ a {
 	font-size: 24px;
 	color: white;
 	text-decoration: none;
-	padding-left: 0.4em;
+/*	padding-left: 0.4em;*/
 	margin-top: 1em!important;
 }
 
@@ -126,7 +126,6 @@ a {
 
 .contact {
 	margin-top: 80px;
-	padding-bottom: 50px;
 }
 
 .mail{
@@ -293,7 +292,7 @@ nav a:hover {
 Footer {
 	font-size: 10px!important;
 	padding-left: 20px;
-	margin-top: 80px;
+	margin-top: 40px;
 	background-color: #1B1F4C;
 	color: darkgray;
 }
