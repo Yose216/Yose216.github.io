@@ -29,6 +29,11 @@ a {
 	font-family: 'Roboto', sans-serif!important;
 }
 
+.textPres {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
 /*css carrousel*/
 
 .carousel {
@@ -95,7 +100,9 @@ a {
 .wpImg,
 .jsImg,
 .jQImg,
-.phpImg {
+.phpImg,
+.imgSil,
+.imgSym {
 	margin-top: 50px!important;
 }
 
