@@ -75,11 +75,11 @@ a {
 }
 
 .portfolio {
-	margin-top: 100px;
+	margin-top: 300px;
 }
 
 .html_css {
-	margin-top: 50px;
+	margin-top: 250px;
 }
 
 .mailYou {
@@ -220,6 +220,9 @@ form {
 .chevron7 {
 	color: #1B1F4C;
 	padding-left: 45px;
+}
+.chevron {
+    margin-top: 110px;
 }
 
 .chevron:hover,
