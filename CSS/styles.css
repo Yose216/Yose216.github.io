@@ -34,6 +34,10 @@ a {
     padding-top: 10px;
 }
 
+.commence h3{
+    font-weight: 800;
+}
+
 /*css carrousel*/
 
 .carousel {
@@ -198,6 +202,10 @@ form {
     margin-top: 40px;
 }
 
+.commence {
+    margin-top: 90px;
+}
+
 /*Colors of portfolio*/
 
 .cv a:hover {
@@ -221,9 +229,6 @@ form {
 	color: #1B1F4C;
 	padding-left: 45px;
 }
-.chevron {
-    margin-top: 110px;
-}
 
 .chevron:hover,
 .chevron2:hover,
@@ -233,6 +238,14 @@ form {
 .chevron6:hover,
 .chevron7:hover {
 	color: #0C0B07;
+}
+
+.fleche {
+    color: #1B1F4C;
+}
+
+.fleche:hover {
+    color: #0C0B07;
 }
 
 i {

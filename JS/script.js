@@ -41,25 +41,25 @@ $(document).ready(function(){
     $(".chevron").click(function(){
         $("#carouselHtml").slideToggle("slow");
     });
-	$(".chevron").click(function(){
+	$(".chevron2").click(function(){
         $("#carouselWp").slideToggle("slow");
     });
-	$(".chevron").click(function(){
+	$(".chevron3").click(function(){
         $("#carouselJs").slideToggle("slow");
     });
-	$(".chevron").click(function(){
+	$(".chevron4").click(function(){
         $("#carouseljQuery").slideToggle("slow");
     });
-	$(".chevron").click(function(){
+	$(".chevron6").click(function(){
         $("#carouselPhp").slideToggle("slow");
     });
-	$(".chevron").click(function(){
+	$(".chevron5").click(function(){
         $("#aboutMe").slideToggle("slow");
     });
-	$(".chevron").click(function(){
+	$(".chevron7").click(function(){
         $("#carouselFram").slideToggle("slow");
     });
-	$(".chevron").click(function(){
+	$(".mail").click(function(){
         $("#contact").slideToggle("slow");
     });
 });
