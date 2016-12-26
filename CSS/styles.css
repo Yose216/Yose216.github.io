@@ -130,6 +130,7 @@ a {
 .mail2 {
 	color: #202459;
 	padding-left: 1em;
+    cursor: default;
 }
 
 .mail:hover {
