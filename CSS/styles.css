@@ -64,7 +64,7 @@ a {
 	}
 
 	.html_css {
-		margin-top: 850px!important;
+		margin-top: 2000px!important;
 	}
 }
 
@@ -108,6 +108,15 @@ a {
 .imgSil,
 .imgSym {
 	margin-top: 50px!important;
+}
+
+.imgHtlmCss,
+.wpImg,
+.jsImg,
+.jQImg,
+.imgSil,
+.imgSym {
+	padding-top: 50px!important;
 }
 
 .wp,
