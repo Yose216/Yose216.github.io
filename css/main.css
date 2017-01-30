@@ -1,0 +1,214 @@
+.home {
+    background-color: #fff;
+    padding-top: 18em;
+    padding-bottom: 12em;
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.competence {
+    background-color: #fafafa;
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    padding-top: 3em;
+    padding-bottom: 12em;
+}
+
+.competence h2,
+.realisation h2 {
+    font-size: 40px;
+}
+
+.competence header {
+    padding-bottom: 5em;
+}
+
+h1 {
+    font-size: 56px!important;
+}
+
+.txtHome {
+    padding-top: 2em;
+    font-size: 20px!important;
+}
+
+.box {
+    background: #fff;
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 3em 2em 3.5em 2em;
+}
+
+.box img {
+    width: 200px;
+    height: 200px;
+}
+
+.boxCompet {
+    padding-bottom: 2em;
+}
+
+.realisation {
+    background-color: #fff;
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    padding-top: 3em;
+    padding-bottom: 12em;
+}
+
+.realisation header {
+    padding-bottom: 5em;
+}
+
+.realisation article:first-child {
+    padding: 0px!important;
+    background-image: url(../Images/boue.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border: 1px grey solid;
+}
+
+.overlay {
+    background-color: rgba(0, 0 ,0, 0.4);
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+}
+
+.realisation article:nth-child(2) {
+    padding: 0px!important;
+    background-image: url(../Images/cmsYou.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border: 1px grey solid;
+}
+
+.realisation article:nth-child(3) {
+    padding: 0px!important;
+    background-image: url(../Images/asrac.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border: 1px grey solid;
+}
+
+.realisation article:nth-child(4) {
+    padding: 0px!important;
+    background-image: url(../Images/hack.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border: 1px grey solid;
+}
+
+.realisation article:nth-child(5) {
+    padding: 0px!important;
+    background-image: url(../Images/create_pro.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border: 1px grey solid;
+}
+
+.realisation article:nth-child(6) {
+    padding: 0px!important;
+    background-image: url(../Images/pastime.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border: 1px grey solid;
+}
+
+.realisation article:nth-child(7) {
+    padding: 0px!important;
+    background-image: url(../Images/theme_boots.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border: 1px grey solid;
+}
+
+.realisation article:nth-child(8) {
+    padding: 0px!important;
+    background-image: url(../Images/pomodoro.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border: 1px grey solid;
+}
+
+.realisation article:last-child {
+    padding: 0px!important;
+    background-image: url(../Images/ebullition.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border: 1px grey solid;
+}
+
+.realisation article h3 {
+    bottom: 1em;
+    font-size: 1em;
+    left: 2.1875em;
+    margin: 0;
+    position: absolute;
+    color: #f5f5f5;
+    font-weight: bold;
+}
+
+.realisation article img {
+    display: none;
+}
+
+.realisation article a {
+    cursor: pointer;
+    color: black;
+}
+
+.contact {
+    background-color: #fafafa;
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    padding-top: 3em;
+    padding-bottom: 10em;
+}
+
+.mainContact {
+    background: #fff;
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    padding: 3em 2em 3.5em 2em;
+}
+
+.mainContact footer {
+    padding-top: 4em;
+}
+
+.mainContact footer p {
+    padding-top: 3em;
+}
+
+.mainContact ul {
+    padding-left: 0px;
+}
+
+.mainContact li{
+    list-style: none;
+    display: inline-block;
+}
+
+.mainContact ul li a {
+    border-radius: 100%;
+    border: 1px solid #c8cccf;
+    padding: 2.5em 1.5em 2em 1.5em;;
+    color: #c8cccf;
+}
+
+.mainContact ul li a:hover {
+    border: 1px solid black;
+    color: black;
+}
+
+
+.headSection {
+    border-bottom: 1px black solid;
+    padding-bottom: 2em;
+    
+}

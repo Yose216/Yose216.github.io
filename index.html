@@ -1,180 +1,182 @@
-<!DOCTYPE html>
-    <html lang="fr">
-
-    <head>
-        <meta charset="UTF-8" />
-        <title>Portfolio de Youness, Développeur web</title>
-        <meta name="description" content="Portfolio de Youness CHETOUI, développeur web back-end, ancien apprenant de la Code Avadémie Rennes." />
-        <meta name="author" content="Youness CHETOUI" />
-        <link rel="stylesheet" type="text/css" href="CSS/styles.css" />
-        <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css" />
-        <link rel="stylesheet" type="text/css" href="CSS/Font-awesome/css/font-awesome.min.css" />
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Roboto" rel="stylesheet" />
-        <link rel="shortcut icon" href="Images/favicon.ico" />
-        <link rel="stylesheet" href="CSS/animate.min.css">
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Portfolio développeur web back-end | Youness Chetoui </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="css/Font-awesome/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="css/Bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/main.css" />
         <script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  		ga('create', 'UA-91026090-1', 'auto');
- 		 ga('send', 'pageview');
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-91026090-1', 'auto');ga('send', 'pageview');
         </script>
-    </head>
+	</head>
+	<body>
 
-    <body>
-        <header>
-            <nav class="navbar navbar-inverse navbar-fixed-top col-xs-12">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <a class="navbar-brand col-xs-offset-3" href="#home">Portfolio de Youness</a>
-                    </div>
-                    <div class="collapse navbar-collapse" id="myNavbar">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#html">HTML5/CSS3</a></li>
-                            <li><a href="#WP">Wordpress</a></li>
-                            <li><a href="#JS">JavaScript</a></li>
-                            <li><a href="#jQuery">jQuery</a></li>
-                            <li><a href="#PHP">PHP</a></li>
-                            <li><a href="#FramPHP">Silex/Symfony</a></li>
-                            <li><a href="#Moi">About</a></li>
-                            <li><a href="#Contact">Contact</a></li>
-                        </ul>
-                    </div>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span> 
+                    </button>
+                    <a class="navbar-brand" href="#">Portfolio de youness</a>
                 </div>
-            </nav>
-        </header>
-
-        <div class="container portfolio" id="home">
-            <div class="home col-lg-12 col-xs-12 text-center">
-                <h1 class="titlePort ">< Mon Portfolio web /></h1>
-                <h3 class="animated fadeInRight col-xs-12 col-lg-offset-0">Youness CHETOUI, développeur web back-end, spécialisé dans les frameworks Symfony et Silex, passionné du monde numérique et toujours à l'affut des dernières technologies. A la recherche d'un emploi à partir de janvier 2017, je vous laisse découvrir tous mes projets que ce soit en front-end ou back-end sur ce portfolio. N'hésitez pas à me contacter.</h3>
-            </div>
-
-            <div class="commence col-lg-offset-5 col-lg-7 col-xs-offset-6 col-xs-6">
-                <h3 class="">Ca commence ici !</h3>
-                <a href="#html"><i class="fa fa-arrow-down fa-5x col-lg-offset-1 col-xs-offset-2 fleche" aria-hidden="true" ></i></a>
-            </div>
-
-            <div id="html" class="col-lg-12 html_css">
-                <img src="Images/html_css/html_css.png" class="col-lg-offset-4 col-xs-offset-5 img-responsive imgHtlmCss" alt="Image html5&css3" />
-                <h3 class="col-lg-offset-4 col-xs-offset-5">Mes créations en HTML5 et CSS3 : </h3>
-                <i class="fa fa-chevron-down fa-4x chevron col-lg-offset-5 col-xs-offset-7" aria-hidden="true" ></i>
-
-                <div class="carousel col-lg-12 col-xs-12 col-lg-offset-0 col-xs-offset-2" id="carouselHtml">
-                    <a href="Projet/create_pro/Index.html" target="_blank"><img src="Images/html_css/create_pro.png" id="item-1"  alt="Image de projet" /></a>
-                    <a href="Projet/pastime/Index.html" target="_blank"><img src="Images/html_css/pastime.png" id="item-2" alt="Image de projet" /></a>
-                    <a href="Projet/start_bootstrap/index.html" target="_blank"><img src="Images/html_css/theme_boots.png" id="item-3" alt="Image de projet" /></a>
-                    <a href="Projet/CV/index.xml" target="_blank"><img src="Images/html_css/Cv.png" id="item-3" alt="Image de projet" /></a>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#home">Home</a></li>
+                        <li><a href="#comp">Mes compétence</a></li>
+                        <li><a href="#real">Mes réalisations</a></li>
+                        <li><a href="#cont">Contact</a></li>
+                    </ul>
                 </div>
+            </div>
+        </nav>
+
+			<div id="home" class="home col-lg-12">
+				<article class="container-fluid">
+					<div class="row">
+						<div class="col-lg-3 col-lg-offset-2">
+							<img src="Images/Youness.JPG" alt="" class="img-circle img-responsive" />
+						</div>
+						<div class="col-lg-6 ">
+							<header>
+								<h1><strong>Youness Chetoui</strong>,</h1>
+							</header>
+                            <p class="txtHome">Développeur web back-end, spécialisé dans les frameworks Symfony et Silex, passionné du monde numérique et toujours à l'affut des dernières technologies. A la recherche d'un emploi à partir de janvier 2017, je vous laisse découvrir tous mes projets que ce soit en front-end ou back-end sur ce portfolio. N'hésitez pas à me contacter.</p>
+						</div>
+					</div>
+				</article>
 			</div>
 
-            <div id="WP" class="col-lg-12 wp">
-                <img src="Images/wordpress/wordpress.png" class="col-lg-offset-3 col-xs-offset-3 img-responsive wpImg" alt="Image logo wordpress" />
-                <h3 class="col-lg-offset-4 col-xs-offset-5">Mes créations en Wordpress : </h3>
-				<i class="fa fa-chevron-down fa-4x chevron2 col-lg-offset-5 col-xs-offset-7" aria-hidden="true"></i>
-				
-                <div class="carousel col-lg-12 col-xs-12 col-lg-offset-0 col-xs-offset-2" id="carouselWp">
-                    <a href="http://bazar-ebullition.fr/" target="_blank"><img src="Images/wordpress/ebullition.png" id="item-1" class="img-responsive" alt="Image de projet" /></a>
-                    <a href="https://github.com/Yose216/gommoraWordpress.git" target="_blank"><img src="Images/wordpress/gomorra.png" id="item-2" class="img-responsive" alt="Image de projet" /></a>
-					<a href="https://github.com/Yose216/bowling.git" target="_blank"><img src="Images/wordpress/screnshot.png" id="item-3" class="img-responsive" alt="Image de projet" /></a>
-                </div>
+			<div id ="comp" class="competence col-lg-12">
+				<article>
+					<header class="text-center">
+						<h2>Mes compétence</h2>
+						<p>Découvrez mes langage de programmation favoris</p>
+					</header>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-lg-4 boxCompet">
+								<section class="box">
+									<img src="Images/html_css.png"/>
+									<h3>HTML/CSS</h3>
+									<p>Une bonne connaissance et une bonne maitrise dans les deux langages standart du web.</p>
+								</section>
+							</div>
+							<div class="col-lg-4 boxCompet">
+								<section class="box">
+									<img src="Images/wordpress.png"/>
+									<h3>Wordpress</h3>
+									<p>Une bonne connaissance du CMS le plus connu du web, quelque projet réalisé sur Wordpress.</p>
+								</section>
+							</div>
+							<div class="col-lg-4 boxCompet">
+								<section class="box ">
+									<img src="Images/JQuery.png"/>
+									<h3>jQuery</h3>
+									<p>Une bonne connaissance d'un des plus connu framework JavaScript, présent dans mes nombreux projet.</p>
+								</section>
+							</div>
+                            <div class="col-lg-4 boxCompet">
+								<section class="box ">
+									<img src="Images/symfony.png"/>
+									<h3>Symfony</h3>
+									<p>Le framework PHP que j'utilise le plus souvent, bon nombre de mes projets développé avec Symfony 3.</p>
+								</section>
+							</div>
+							<div class="col-lg-4 boxCompet">
+								<section class="box">
+									<img src="Images/silex-logo.png"/>
+									<h3>Silex</h3>
+									<p>Le petit frére de Symfony, quelque projets réalise dessus, j'ai une très bonne connaissance de Silex.</p>
+								</section>
+							</div>
+							<div class="col-lg-4 boxCompet">
+								<section class="box">
+									<img src="Images/php.png"/>
+									<h3>PHP</h3>
+									<p>Le PHP, l'un des langages le plus connu et utilisé dans le web, présent dans tout mes projets.</p>
+								</section>
+							</div>
+						</div>
+					</div>
+				</article>
 			</div>
-
-            <div class="col-lg-12 js" id="JS">
-                <img src="Images/JS/js.png" class="col-lg-offset-4 img-responsive col-xs-offset-5 jsImg" alt="Image logo JS" />
-                <h3 class="col-lg-offset-4 col-xs-offset-5">Mes créations en JavaScript : </h3>
-				<i class="fa fa-chevron-down fa-4x chevron3 col-lg-offset-5 col-xs-offset-7" aria-hidden="true"></i>
-
-                <div class="carousel col-lg-12 col-xs-12 col-lg-offset-0 col-xs-offset-2" id="carouselJs">
-                    <a href="Projet/Quizz/Index.html" target="_blank"><img src="Images/JS/quizz.png" id="item-1" class="img-responsive" alt="Image de projet" /></a>
-                    <a href="Projet/Goku_clicker/index.html" target="_blank"><img src="Images/JS/goku_click.png" id="item-2" class="img-responsive" alt="Image de projet" /></a>
-                </div>
-            </div>
-
-            <div class="col-lg-12 jQuery" id="jQuery">
-                <img src="Images/jQuery/JQuery.png" class="col-lg-offset-3 col-xs-offset-4 img-responsive jQImg" alt="Image logo jQuery" />
-                <h3 class="col-lg-offset-4 col-xs-offset-6">Mes créations en jQuery : </h3>
-				<i class="fa fa-chevron-down fa-4x chevron4 col-lg-offset-5 col-xs-offset-7" aria-hidden="true"></i>
-
-                <div class="carousel col-lg-12 col-xs-12 col-lg-offset-0 col-xs-offset-2" id="carouseljQuery">
-                    <a href="Projet/pomodoro/index.html" target="_blank"><img src="Images/jQuery/pomodoro.png" id="item-1" class="img-responsive" alt="Image de projet" /></a>
-                    <a href="Projet/tic_tac_toe/index.html" target="_blank"><img src="Images/jQuery/tic_tac_toe.png" id="item-2" class="img-responsive" alt="Image de projet" /></a>
-                </div>
-            </div>
-
-            <div class="col-lg-12 php" id="PHP">
-                <img src="Images/php/php.png" class="col-lg-offset-4 col-xs-offset-5 img-responsive phpImg" alt="image logo php" />
-				<h3 class="col-lg-offset-4 col-xs-offset-5 creaPhp">Mes créations en PHP : </h3>
-				<i class="fa fa-chevron-down fa-4x chevron6 col-lg-offset-5 col-xs-offset-7" aria-hidden="true"></i>
-                
-				<div class="carousel col-lg-12 col-xs-12 col-lg-offset-0 col-xs-offset-2" id="carouselPhp">
-                    <a href="https://github.com/Yose216/php_challenge1_send_mail.git" target="_blank"><img src="Images/php/mail.png" id="item-1" class="img-responsive" alt="Image de projet" /></a>
-                </div>
-            </div>
-			
-			<div class="col-lg-12 Framphp" id="FramPHP">
-                <img src="Images/framPhp/symfony.png" class="col-lg-offset-4 col-xs-offset-5 img-responsive imgSym" alt="image logo symfony" />
-				<img src="Images/framPhp/silex-logo.png" class="img-responsive imgSil" alt="image logo silex" />
-				<h3 class="col-lg-offset-4 col-xs-offset-5">Mes créations en Silex et Symfony : </h3>
-				<i class="fa fa-chevron-down fa-4x chevron7 col-lg-offset-5 col-xs-offset-7" aria-hidden="true"></i>
-                
-				<div class="carousel col-lg-12 col-xs-12 col-lg-offset-0 col-xs-offset-2" id="carouselFram">
-                    <a href="https://github.com/Yose216/CMS_Silex.git" target="_blank"><img src="Images/framPhp/cmsYou.png" id="item-1"  alt="Image de projet" /></a>
-                    <a href="https://github.com/Yose216/Bou-e_corsaire_projet.git" target="_blank"><img src="Images/framPhp/boue.png" id="item-2" alt="Image de projet" /></a>
-                    <a href="https://github.com/Yose216/smart-app.git" target="_blank"><img src="Images/framPhp/hack.png" id="item-3" alt="Image de projet" /></a>
-                    <a href="http://asrac.fr" target="_blank"><img src="Images/framPhp/asrac.png" id="item-4" alt="Image de projet" /></a>
-                </div>
-            </div>
-
-            <div class="col-lg-12 About" id="Moi">
-                <h2 class="col-lg-offset-5 col-xs-offset-7 Moi">ABOUT ME</h2>
-				<i class="fa fa-chevron-down fa-4x chevron5 col-lg-offset-5 col-xs-offset-7" aria-hidden="true"></i>
-
-				<div class="contenue col-lg-12 col-lg-offset-0 col-xs-12 col-xs-offset-2" id="aboutMe">
-					<div class="Photo col-lg-6 col-xs-12">
-						<img src="Images/Youness.JPG" class="img-responsive" alt="Image de moi" />
-					</div>
-					<div class="texteAbout col-lg-6 col-xs-12">
-						<h3 class="col-lg-offset-4 col-xs-offset-4 titrePres">Présentation</h3>
-						<p class="textPres">Youness CHETOUI, 19 ans et demeurant à Rennes. Je suis titulaire d'un Bac professionnel en S.E.N(Systèmes électroniques et numériques) obtenu en juin 2015 et d'un titre de développeur web/logiciel de niveau III obtenu en janvier 2017 après une formation de 8 mois au sein de la Code Académie de FACE Rennes. J'ai été formé à la programmation web avec les langage de base tel que Html/Css, JavaScript, PHP et MySql. J'ai découvert et maîtrisé de nombreux frameworks comme bootstrap, jQuery, Silex et Symfony sur lesquels je me suis spécialisé au cours de ma formation pour évoluer en tant que développeur web back-end. J'ai eu l'occasion de travailler avec linux plus précisément sur ubuntu et me suis familiariser avec pendant 8 mois. J'ai conçu de nombreux sites/applications web pendant ma formation, sur mon temps personnel ou lors d'un hackathon par exemple. Toutes ces experiences m'ont donné le goût du développement web pour lequel j'ai une vrai appétence aujourd'hui. Je suis en veille constante sur les dernières technologies du web et je suis en apprentissage continuel, je me tiens le plus à jour possible sur toutes les technologies et frameworks cités ci-dessus tout en essayant d'en apprendre toujours plus. N'hésitez pas à me contacter sur mes réseaux sociaux ou directement sur mon adresse mail que vous trouverez dans la partie contact de ce portfolio.</p>
-					</div>
-
-					<div class="cv col-lg-6 col-lg-offset-5 col-xs-offset-4">
-						<h4>Télécharger mon CV ici : </h4>
-						<a href="PDF/Youness_Chetoui_CV.pdf" target="_blank" class="btn btn-primary btn-lg" role="button">Télécharger</a>
-					</div>
-				</div>
-            </div>
-
-            <div id="Contact" class="col-lg-12 col-xs-12 contact">
-                <h1 class="col-lg-0 col-lg-offset-5 col-xs-offset-7">CONTACT</h1>
-				<i class="fa fa-envelope fa-4x col-lg-offset-5 col-xs-offset-7 mail" aria-hidden="true"></i>
-
-				<div class="contenue col-lg-12 col-xs-12 col-lg-offset-0 col-xs-offset-2" id="contact">
-					<div class="social col-lg-offset-5 col-xs-offset-5">
-						<a href="https://twitter.com/Youness_Chetoui" title="Twitter"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
-						<a href="https://fr.linkedin.com/in/youness-chetoui-70b296122" title="Linkedin"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
-						<a href="https://github.com/Yose216" title="Github"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
-					</div>
-					
-                    <div class="mailYou col-lg-9 col-xs-12 col-lg-offset-3 col-xs-offset-3">
-					   <i class="fa fa-envelope fa-2x mail2 col-lg-offset-1" aria-hidden="true"></i>
-					   <a class="mailYou" href="mailto:youness.chetoui@gmail.com">youness.chetoui@gmail.com</a>
+            
+            <div id="real" class="col-lg-12 realisation">
+                <header class="text-center">
+				    <h2>Mes Réalisations</h2>
+				    <p>Découvrez tout mes projet que j'ai réalisé tout seul ou en équipe.</p>
+				</header>
+                    <div class="container-fluid">
+						<div class="row ">
+						<article class="col-lg-4">
+							<h3>La bouée corsaire | <a href="https://github.com/Yose216/Bou-e_corsaire_projet.git" target="_blank">Site web</a></h3>
+                            <div class="overlay"></div>
+						</article>
+                        <article class="col-lg-4">
+							<h3>Blog Silex | <a href="https://github.com/Yose216/CMS_Silex.git" target="_blank">Site web</a></h3>
+                            <div class="overlay"></div>
+						</article>
+                            <article class="col-lg-4">
+							<h3>Asrac | <a href="http://asrac.fr" target="_blank">Site web</a></h3>
+                            <div class="overlay"></div>
+						</article>
+                        <article class="col-lg-4">
+							<h3>Smart app | <a href="https://github.com/Yose216/smart-app.git" target="_blank">Site web</a></h3>
+                            <div class="overlay"></div>
+						</article>
+                        <article class="col-lg-4">
+							<h3>Create pro | <a href="https://github.com/Yose216" target="_blank">Site web</a></h3>
+                            <div class="overlay"></div>
+						</article>
+                        <article class="col-lg-4">
+							<h3>Pastime | <a href="https://github.com/Yose216" target="_blank">Site web</a></h3>
+                            <div class="overlay"></div>
+						</article>
+                        <article class="col-lg-4">
+							<h3>Theme bootstrap | <a href="https://github.com/Yose216" target="_blank">Site web</a></h3>
+                            <div class="overlay"></div>
+						</article>
+                        <article class="col-lg-4">
+							<h3>Pomodoro | <a href="https://github.com/Yose216/js_pomodoro" target="_blank">Site web</a></h3>
+                            <div class="overlay"></div>
+						</article>
+                        <article class="col-lg-4">
+							<h3>Ebullition | <a href="http://bazar-ebullition.fr/" target="_blank">Site web</a></h3>
+                            <div class="overlay"></div>
+						</article>
+					   </div>
                     </div>
-				</div>
-            </div>
-        </div>
-		
-		<footer>
-			<p class="col-lg-offset-5 col-xs-offset-3">Youness CHETOUI 2017© Licence MIT</p>
-		</footer>
-
-        <script src="JS/jquery-2.2.2.min.js" type="text/javascript"></script>
-        <script src="JS/script.js" type="text/javascript"></script>
-        <script src="JS/jquery.waterwheelCarousel.js" type="text/javascript"></script>
+                </div>
+                
+                <div id="cont" class="col-lg-12 contact text-center">
+                    <header>
+				        <h2>A propos de moi</h2>
+				        <p>Découvrez mon CV, mes réseaux sociaux et mon adresse e-mail, n'hesitez pas à me suivre ou à me contacter.</p>
+				    </header>
+					<section class="col-lg-offset-3 col-lg-6 mainContact">
+						<header class=" headSection">
+							<h2>Youness Chetoui</h2>
+							<p>Développeur web back-end</p>
+                            <a href="PDF/Youness_Chetoui_CV.pdf" target="_blank" class="btn btn-primary btn-lg" role="button">Mon CV</a>
+                        </header>
+						<footer class="">
+							<ul>
+								<li><a href="#" ><i class="fa fa-twitter fa-2x"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a></li>
+								<li><a href="#"><i class="fa fa-github fa-2x"></i></a></li>
+							</ul>
+                            <p>youness.chetoui@gmail.com</p>
+						</footer>
+					</section>
+                </div>
+            <p class="col-lg-12 text-center">Youness Chetoui&copy; 2017. All rights reserved</p>
+        
+        <script src="js/jquery.min.js"></script>
+        <script src="css/Bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
     </body>
-
-    </html>
+</html>

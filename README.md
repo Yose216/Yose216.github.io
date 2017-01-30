@@ -1,6 +1,6 @@
 # Mon Portfolio
 
-Première version de mon portfolio qui contient toutes mes créations en développement web :
+Deuxième version de mon portfolio qui prèsente mon travail dans le développement web :
 
 https://yose216.github.io/
 
@@ -9,9 +9,7 @@ https://yose216.github.io/
 + HTML5/CSS3
 + Bootstrap v3.3.6 (http://getbootstrap.com)
 + Font-awesome v4.6.3 (http://fontawesome.io)
-+ Animate.css v3.5.2 (https://daneden.github.io/animate.css/)
-+ jQuery v2.2.2 (http://www.jquery.com)
-+ Waterwheel Carousel v2.3.0 (http://www.bkosborne.com)
++ jQuery v1.11.3 (http://www.jquery.com)
 + Google fonts:
     + Open Sans (https://fonts.google.com/specimen/Open+Sans)
     + Raleway (https://fonts.google.com/specimen/Raleway)
@@ -26,6 +24,4 @@ https://yose216.github.io/
 
 -----------------
 
-<sup>NB: Rafraichir la page pour visualiser en mode responsive.</sup>
-
-<sup>Youness CHETOUI 2016© Licence MIT</sup>
+<sup>Youness CHETOUI 2017© Licence MIT</sup>
