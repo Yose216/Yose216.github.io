@@ -25,8 +25,9 @@ nav a:hover {
 }
 
 .competence h2,
-.realisation h2 {
-    font-size: 40px;
+.realisation h2,
+.contact h2 {
+    font-size: 45px!important;
 }
 
 .competence header {
