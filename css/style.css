@@ -18,7 +18,7 @@ nav a:hover {
 }
 
 .competence {
-    background-color: #fafafa;
+    background-color: #f5f5f5;
     box-shadow: inset 0px 0px 0px 1px rgba(32, 45, 178, 0.15), 0px 2px 3px 0px rgba(32, 45, 178, 0.1);
     padding-top: 3em;
     padding-bottom: 12em;
@@ -45,7 +45,7 @@ h1 {
 }
 
 .box {
-    background: #606FFF;
+    background: #929DFF;
     box-shadow: inset 0px 0px 0px 2px rgba(32, 45, 178, 0.15), 0px 3px 4px 0px rgba(32, 45, 178, 0.1);
     text-align: center;
     padding: 3em 2em 3.5em 2em;
@@ -61,7 +61,7 @@ h1 {
 }
 
 .realisation {
-    background-color: #606FFF;
+    background-color: #929DFF;
     box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
     padding-top: 3em;
     padding-bottom: 12em;
@@ -105,7 +105,8 @@ h1 {
 .overlay7:hover,
 .overlay8:hover,
 .overlay9:hover {
-    background-color: rgba(67, 78 , 178, 0.9);
+    background-color: rgba(32, 49, 178, 0.9);
+    
     
 }
 
@@ -207,7 +208,7 @@ h1 {
 }
 
 .contact {
-    background-color: #929DFF;
+    background-color: #f5f5f5;
     box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.3), 0px 2px 3px 0px rgba(0, 0, 0, 0.3);
     padding-top: 3em;
     padding-bottom: 10em;
@@ -218,7 +219,7 @@ h1 {
 }
 
 .mainContact {
-    background: #fff;
+    background: #929DFF;
     box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.3), 0px 2px 3px 0px rgba(0, 0, 0, 0.3);
     padding: 3em 2em 3.5em 2em;
 }
@@ -242,9 +243,9 @@ h1 {
 
 .mainContact ul li a {
     border-radius: 100%;
-    border: 1px solid #929DFF;
+    border: 1px solid #606FFF;
     padding: 2.5em 1.5em 2em 1.5em;;
-    color: #929DFF;
+    color: #606FFF;
     transition: all 200ms linear;
 }
 
@@ -272,8 +273,8 @@ h1 {
 }
 
 .mainContact header a {
-    background-color: #929DFF!important;
-    border-color: #929DFF!important;
+    background-color: #606FFF!important;
+    border-color: #606FFF!important;
     transition: all 200ms linear;
 }
 
