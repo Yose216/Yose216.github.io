@@ -1,5 +1,5 @@
 nav {
-    background-color: #2031B2!important;
+    background-color: #494E7F!important;
 }
 
 nav a {
@@ -7,13 +7,13 @@ nav a {
 }
 
 nav a:hover {
-    color: grey!important;
+    color: #B2B5CB!important;
 }
 
 .home {
     background-color: #929DFF;
-    padding-top: 18em;
-    padding-bottom: 12em;
+    padding-top: 14em;
+    padding-bottom: 14em;
     box-shadow: inset 0px 0px 0px 1px rgba(32, 45, 178, 0.15), 0px 2px 3px 0px rgba(32, 45, 178, 0.1);
 }
 
@@ -41,15 +41,15 @@ h1 {
 }
 
 .txtHome {
-    padding-top: 2em;
+    padding-top: 1em;
     font-size: 20px!important;
 }
 
 .box {
     background: #929DFF;
-    box-shadow: inset 0px 0px 0px 2px rgba(32, 45, 178, 0.15), 0px 3px 4px 0px rgba(32, 45, 178, 0.1);
     text-align: center;
     padding: 3em 2em 3.5em 2em;
+    transition: all 200ms linear;
 }
 
 .box img {
@@ -61,6 +61,11 @@ h1 {
     padding-bottom: 2em;
 }
 
+.box:hover {
+    box-shadow: 5px 5px 5px 5px rgba(73, 78, 127, 0.7);
+    
+}
+
 .realisation {
     background-color: #929DFF;
     box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -70,15 +75,6 @@ h1 {
 
 .realisation header {
     padding-bottom: 5em;
-}
-
-.realisation article:first-child {
-    padding: 0px!important;
-    background-image: url(../Images/boue.png);
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    border: 1px #2031B2 solid;
 }
 
 .overlay,
@@ -106,9 +102,7 @@ h1 {
 .overlay7:hover,
 .overlay8:hover,
 .overlay9:hover {
-    background-color: rgba(32, 49, 178, 0.9);
-    
-    
+    background-color: rgba(73, 78, 127, 0.9);
 }
 
 .hoverTitleReal {
@@ -127,13 +121,20 @@ h1 {
     transition: all 0.3s;
 }
 
+.realisation article:first-child {
+    padding: 0px!important;
+    background-image: url(../Images/boue.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
 .realisation article:nth-child(2) {
     padding: 0px!important;
     background-image: url(../Images/cmsYou.png);
     background-size: cover;
     background-position: center;
     height: 300px;
-    border: 1px #2031B2 solid;
 }
 
 .realisation article:nth-child(3) {
@@ -142,7 +143,6 @@ h1 {
     background-size: cover;
     background-position: center;
     height: 300px;
-    border: 1px #2031B2 solid;
 }
 
 .realisation article:nth-child(4) {
@@ -151,7 +151,6 @@ h1 {
     background-size: cover;
     background-position: center;
     height: 300px;
-    border: 1px #2031B2 solid;
 }
 
 .realisation article:nth-child(5) {
@@ -160,7 +159,6 @@ h1 {
     background-size: cover;
     background-position: center;
     height: 300px;
-    border: 1px #2031B2 solid;
 }
 
 .realisation article:nth-child(6) {
@@ -169,7 +167,6 @@ h1 {
     background-size: cover;
     background-position: center;
     height: 300px;
-    border: 1px #2031B2 solid;
 }
 
 .realisation article:nth-child(7) {
@@ -178,7 +175,6 @@ h1 {
     background-size: cover;
     background-position: center;
     height: 300px;
-    border: 1px #2031B2 solid;
 }
 
 .realisation article:nth-child(8) {
@@ -187,7 +183,6 @@ h1 {
     background-size: cover;
     background-position: center;
     height: 300px;
-    border: 1px #2031B2 solid;
 }
 
 .realisation article:last-child {
@@ -196,7 +191,6 @@ h1 {
     background-size: cover;
     background-position: center;
     height: 300px;
-    border: 1px #2031B2 solid;
 }
 
 .realisation article img {
@@ -244,16 +238,16 @@ h1 {
 }
 
 .mainContact ul li a {
-    border-radius: 100%;
-    border: 1px solid #606FFF;
-    padding: 2.5em 1.5em 2em 1.5em;;
-    color: #606FFF;
+    border-radius: 65%;
+    border: 2px solid #494E7F;
+    padding: 2.5em 1.7em 2em 1.7em;;
+    color: #494E7F;
     transition: all 200ms linear;
 }
 
 .mainContact ul li a:hover {
-    border: 1px solid #2031B2;
-    color: #2031B2;
+    border: 2px solid #6F717F;
+    color: #6F717F;
 }
 
 .mainContact footer h3 {
@@ -271,28 +265,29 @@ h1 {
 
 .mainContact footer h3 a:hover {
     text-decoration: none;
-    color: #2031B2;
+    color: #6F717F;
 }
 
 .mainContact header a {
-    background-color: #606FFF!important;
-    border-color: #606FFF!important;
+    background-color: #494E7F!important;
+    border-color: #494E7F!important;
     transition: all 200ms linear;
 }
 
 .mainContact header a:hover {
-    background-color: #2031B2!important;
-    border-color: #2031B2!important;
+    background-color: #6F717F!important;
+    border-color: #6F717F!important;
 }
 
 .headSection {
-    border-bottom: 1.5px #2031B2 solid;
+    border-bottom: 2px #494E7F solid;
     padding-bottom: 2em;
     
 }
 
 .footer {
-    background-color: #2031B2;
-    color: whitesmoke;
+    background-color: #494E7F;
+    color: #B2B5CB;
     margin-bottom: 0px!important;
+    
 }
