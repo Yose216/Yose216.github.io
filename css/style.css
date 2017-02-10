@@ -251,10 +251,6 @@ h1 {
 
 .mainContact footer h3 a {
     color: rgba(0, 0, 0, 0.8);
-}
-
-.mainContact footer h3 a {
-    color: rgba(0, 0, 0, 0.8);
     transition: all 200ms linear;
 }
 
@@ -285,4 +281,38 @@ h1 {
     color: #B2B5CB;
     margin-bottom: 0px!important;
     
+}
+
+@media (max-width: 700px) {
+    
+    .mainContact ul li:first-child {
+        padding-right: 30px;
+    }
+    
+    .mainContact ul li:last-child {
+        display: block;
+        padding-top: 60px;
+    }
+    
+    .mainContact footer h3 a {
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width: 350px) {
+    
+    .mainContact ul li:first-child {
+        display: block;
+        padding-right: 0px;
+    }
+    
+    .mainContact ul li:nth-child(2) {
+        display: block;
+        padding-top: 60px;
+    }
+    
+    .mainContact footer h3 a {
+        font-size: 15px;
+    }
 }
