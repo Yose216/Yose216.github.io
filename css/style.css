@@ -1,5 +1,5 @@
 nav {
-    background-color: #494E7F!important;
+    background-color: #1C344C!important;
 }
 
 nav a {
@@ -7,11 +7,12 @@ nav a {
 }
 
 nav a:hover {
-    color: #B2B5CB!important;
+    color: #C9B236!important;
 }
 
 .home {
-    background-color: #929DFF;
+    background-color: #287D7D;
+    color: #F5f5f5;
     padding-top: 14em;
     padding-bottom: 14em;
     box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.2), 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
@@ -46,7 +47,7 @@ h1 {
 }
 
 .box {
-    background: #929DFF;
+    background: #287D7D;
     text-align: center;
     padding: 3em 2em 3.5em 2em;
     transition: all 200ms linear;
@@ -66,7 +67,7 @@ h1 {
 }
 
 .realisation {
-    background-color: #929DFF;
+    background-color: #287D7D;
     box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
     padding-top: 3em;
     padding-bottom: 12em;
@@ -101,7 +102,7 @@ h1 {
 .overlay7:hover,
 .overlay8:hover,
 .overlay9:hover {
-    background-color: rgba(73, 78, 127, 0.9);
+    background-color: rgba(28, 52, 76, 0.9);
 }
 
 .hoverTitleReal {
@@ -194,7 +195,7 @@ h1 {
 
 .realisation article a {
     cursor: pointer;
-    color: #929DFF;
+    color: #287D7D;
 }
 
 .contact {
@@ -210,7 +211,7 @@ h1 {
 }
 
 .mainContact {
-    background: #929DFF;
+    background: #287D7D;
     box-shadow:0 2px 30px rgba(0, 0, 0, 0.5);    
     padding: 3em 2em 3.5em 2em;
 }
@@ -234,9 +235,9 @@ h1 {
 
 .mainContact ul li a {
     border-radius: 65%;
-    border: 2px solid #494E7F;
+    border: 2px solid #1C344C;
     padding: 2.5em 1.7em 2em 1.7em;;
-    color: #494E7F;
+    color: #1C344C;
     transition: all 200ms linear;
 }
 
@@ -260,8 +261,8 @@ h1 {
 }
 
 .mainContact header a {
-    background-color: #494E7F!important;
-    border-color: #494E7F!important;
+    background-color: #1C344C!important;
+    border-color: #1C344C!important;
     transition: all 200ms linear;
 }
 
@@ -271,13 +272,13 @@ h1 {
 }
 
 .headSection {
-    border-bottom: 2px #494E7F solid;
+    border-bottom: 2px #1C344C solid;
     padding-bottom: 2em;
     
 }
 
 .footer {
-    background-color: #494E7F;
+    background-color: #1C344C;
     color: #B2B5CB;
     margin-bottom: 0px!important;
     
