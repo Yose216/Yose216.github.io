@@ -16,6 +16,177 @@
 	<body>
 
 
+
+
+
+        <div class="uk-position-relative">
+            <div class="uk-background-cover uk-light uk-flex" style="background-image: url('Images/bg-3.jpg'); height: 70vh;">
+                <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">Texte de presentation </h1>
+            </div>
+            <div class="uk-position-top">
+                <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: nav-scroll-background; cls-inactive: uk-navbar-transparent uk-light; top: 200">
+                    <!--  Menu pour largeur ecran > 960px -->
+                    <nav class="uk-navbar-container uk-visible@m" uk-navbar style="position: relative">
+                        <div class="uk-navbar-left">
+                            <ul class="uk-navbar-nav">
+                                <li class="uk-navbar-item"><a href="">Home</a></li>
+                                <li class="uk-navbar-item"><a href="">Parcour</a></li>
+                                <li class="uk-navbar-item"><a href="">Techno</a></li>
+                                <li class="uk-navbar-item"><a href="">Real</a></li>
+                                <li class="uk-navbar-item"><a href="">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+
+                <div uk-sticky="animation: uk-animation-slide-top; sel-target: #menu; cls-active: nav-scroll-background; cls-inactive: uk-navbar-transparent uk-light; top: 200">
+                    <!--  Menu pour largeur ecran < 960px -->
+                    <nav class="uk-navbar uk-navbar-container uk-box-shadow-medium uk-hidden@m" id="menu" uk-navbar>
+                        <div class="uk-navbar-left">
+                            <a class="uk-navbar-toggle" href="#" uk-toggle="target: #menu-mobile" uk-navbar-toggle-icon></a>
+                        </div>
+                    </nav>
+                    <div class="uk-offcanvas-content">
+                        <div id="menu-mobile" uk-offcanvas="mode: push; overlay: true">
+                            <div class="uk-offcanvas-bar">
+                                <button class="uk-offcanvas-close" type="button" uk-close></button>
+                                <ul class="uk-nav uk-nav-default">
+                                    <li class="uk-navbar-item"><a href="">Home</a></li>
+                                    <li class="uk-navbar-item"><a href="">Parcour</a></li>
+                                    <li class="uk-navbar-item"><a href="">Techno</a></li>
+                                    <li class="uk-navbar-item"><a href="">Real</a></li>
+                                    <li class="uk-navbar-item"><a href="">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-section uk-section-muted uk-preserve-color">
+            <div class="uk-container">
+
+                <div class="uk-panel  uk-margin-medium">
+                    <h3>Mon parcours</h3>
+                </div>
+
+                <div class="uk-card uk-card-default uk-card-body  uk-margin-medium">
+                    <p>CV here</p>
+                </div>
+
+                <a class="uk-button uk-button-secondary" href="PDF/Youness_Chetoui.pdf">Link</a>
+            </div>
+        </div>
+
+        <div class="uk-section uk-section-primary uk-preserve-color">
+            <div class="uk-container">
+
+                <div class="uk-panel uk-light uk-margin-medium">
+                    <h3>Technologies principales</h3>
+                </div>
+
+                <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <p>PHP</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <p>CAKEPHP</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <p>SYMFONY</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <p>HTML / CSS</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <p>JAVASCRIPT</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <p>REACT NATIVE</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-panel uk-light uk-margin-medium">
+                    <h3>Mais aussi</h3>
+                    <span class="uk-badge">ReactJS</span>
+                    <span class="uk-badge">MySQL</span>
+                    <span class="uk-badge">MongoDB</span>
+                    <span class="uk-badge">ElasticSearch</span>
+                    <span class="uk-badge">JQuery</span>
+                    <span class="uk-badge">Silex</span>
+                    <span class="uk-badge">Docker</span>
+                    <span class="uk-badge">Linux</span>
+                    <span class="uk-badge">Git</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="uk-section uk-section-muted uk-preserve-color">
+            <div class="uk-container">
+
+                <div class="uk-panel uk-margin-medium">
+                    <h3>Realisation</h3>
+                </div>
+
+                <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <p>PRO</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <p>FORMATION</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="uk-section uk-section-primary uk-section-small">
+            <div class="uk-container">
+
+                <div class="uk-grid-large uk-flex-middle uk-grid">
+                    <div class="uk-width-expand uk-first-column">
+                        <p class="uk-text-large">Contactez moi</p>
+                    </div>
+                    <div class="uk-width-auto">
+                        <a href="#" uk-icon="icon: mail"></a>
+                    </div>
+                    <div class="uk-width-auto">
+                        <a href="#" uk-icon="icon: linkedin"></a>
+                    </div>
+                    <div class="uk-width-auto">
+                        <a href="#" uk-icon="icon: twitter"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-section uk-section-secondary uk-section-xsmall" style="height: 50px">
+
+        </div>
+
         <script src="js/uikit.min.js"></script>
         <script src="js/uikit-icons.min.js"></script>
         <script src="js/main.js"></script>
