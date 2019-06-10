@@ -14,14 +14,19 @@
         </script>
 	</head>
 	<body>
-
-
-
-
-
-        <div class="uk-position-relative">
-            <div class="uk-background-cover uk-light uk-flex" style="background-image: url('Images/bg-3.jpg'); height: 70vh;">
-                <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">Texte de presentation </h1>
+        <div class="uk-position-relative " id="home">
+            <div class="uk-background-cover uk-light uk-flex uk-flex-column" style="background-image: url('Images/bg.jpg'); height: 70vh;">
+                <div class="uk-text-center uk-margin-auto uk-margin-auto-vertical uk-width-1-2@s uk-padding-small">
+                    <h1>Youness CHETOUI</h1>
+                    <p class="uk-text-lead text-white">Développeur web, spécialisé dans le PHP et les
+                        frameworks Symfony / CakePHP, parfaitement à
+                        l’aise avec le HTML / CSS / JavaScript et le
+                        développement d’application mobile React Native.
+                        Passionné du monde numérique, autodidacte et
+                        toujours à l'affût de l’actu web.
+                        J’aime lire, me tenir informé des dernières
+                        nouveautés mobiles / Android et suivre la NBA.</p>
+                </div>
             </div>
             <div class="uk-position-top">
                 <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: nav-scroll-background; cls-inactive: uk-navbar-transparent uk-light; top: 200">
@@ -29,11 +34,11 @@
                     <nav class="uk-navbar-container uk-visible@m" uk-navbar style="position: relative">
                         <div class="uk-navbar-left">
                             <ul class="uk-navbar-nav">
-                                <li class="uk-navbar-item"><a href="">Home</a></li>
-                                <li class="uk-navbar-item"><a href="">Parcour</a></li>
-                                <li class="uk-navbar-item"><a href="">Techno</a></li>
-                                <li class="uk-navbar-item"><a href="">Real</a></li>
-                                <li class="uk-navbar-item"><a href="">Contact</a></li>
+                                <li class="uk-navbar-item uk-active"><a href="#home">Home</a></li>
+                                <li class="uk-navbar-item"><a href="#parcours">Parcours</a></li>
+                                <li class="uk-navbar-item"><a href="#competences">Compétences</a></li>
+                                <li class="uk-navbar-item"><a href="#realisations">Réalisations</a></li>
+                                <li class="uk-navbar-item"><a href="#contact">Contact</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -52,9 +57,9 @@
                                 <button class="uk-offcanvas-close" type="button" uk-close></button>
                                 <ul class="uk-nav uk-nav-default">
                                     <li class="uk-navbar-item"><a href="">Home</a></li>
-                                    <li class="uk-navbar-item"><a href="">Parcour</a></li>
-                                    <li class="uk-navbar-item"><a href="">Techno</a></li>
-                                    <li class="uk-navbar-item"><a href="">Real</a></li>
+                                    <li class="uk-navbar-item"><a href="">Parcours</a></li>
+                                    <li class="uk-navbar-item"><a href="">Compétences</a></li>
+                                    <li class="uk-navbar-item"><a href="">Réalisations</a></li>
                                     <li class="uk-navbar-item"><a href="">Contact</a></li>
                                 </ul>
                             </div>
@@ -64,86 +69,280 @@
             </div>
         </div>
 
-        <div class="uk-section uk-section-muted uk-preserve-color">
+        <div class="uk-section uk-section-muted uk-preserve-color" id="parcours">
             <div class="uk-container">
-
                 <div class="uk-panel  uk-margin-medium">
-                    <h3>Mon parcours</h3>
+                    <h3 class="uk-margin-medium uk-text-center uk-heading-small">Mon parcours</h3>
                 </div>
-
-                <div class="uk-card uk-card-default uk-card-body  uk-margin-medium">
-                    <p>CV here</p>
-                </div>
-
+                <ul class="timeline">
+                    <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="hexa"></span>
+                                <span class="flag">Wizdeo</span>
+                                <span class="time-wrapper"><span class="time">Octobre 2017-</span></span>
+                            </div>
+                            <div class="desc">Développement back-end sur la plateforme Wizdeo
+                                Analytics et de plusieurs sites connexes en
+                                CakePHP. Développement d’une application mobile
+                                IOS / Android en React Native.</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="direction-l">
+                            <div class="flag-wrapper">
+                                <span class="hexa"></span>
+                                <span class="flag">Mustapha LAABID</span>
+                                <span class="time-wrapper"><span class="time">Mai 2018</span></span>
+                            </div>
+                            <div class="desc">Développement complet d’un CMS en Symfony 3
+                                pour Mustapha LAABID (député de la première
+                                circonscription d’Ille et Vilaine).</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="hexa"></span>
+                                <span class="flag">AMA</span>
+                                <span class="time-wrapper"><span class="time">2017</span></span>
+                            </div>
+                            <div class="desc">Test fonctionnel, écritures de plans de tests, outil de gestion de bug (JIRA), base de donnée de test (TestLink).</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="direction-l">
+                            <div class="flag-wrapper">
+                                <span class="hexa"></span>
+                                <span class="flag">Code académie</span>
+                                <span class="time-wrapper"><span class="time">2016-2017</span></span>
+                            </div>
+                            <div class="desc">Formation bac +2 développeur web/mobile, conception et création d’application et site web.</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="hexa"></span>
+                                <span class="flag">BAC SEN</span>
+                                <span class="time-wrapper"><span class="time">2013-2015</span></span>
+                            </div>
+                            <div class="desc">Bac Systèmes Électroniques et Numériques,
+                                dépannage et installation d’appareils audio,
+                                vidéo et électroménager.</div>
+                        </div>
+                    </li>
+                </ul>
                 <a class="uk-button uk-button-secondary" href="PDF/Youness_Chetoui.pdf">Link</a>
             </div>
         </div>
 
-        <div class="uk-section uk-section-primary uk-preserve-color">
+        <div class="uk-section uk-section-primary uk-preserve-color" id="competences">
             <div class="uk-container">
 
-                <div class="uk-panel uk-light uk-margin-medium">
-                    <h3>Technologies principales</h3>
+                <div class="uk-light uk-margin-medium uk-text-center">
+                    <h3 class="uk-margin-medium uk-text-center uk-heading-small">Mes compétences</h3>
                 </div>
 
                 <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
                     <div>
-                        <div class="uk-card uk-card-default uk-card-body">
-                            <p>PHP</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-default uk-card-body">
-                            <p>CAKEPHP</p>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="uk-card uk-card-default uk-card-body">
-                            <p>SYMFONY</p>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-header">
+                                <h3 class="uk-card-title uk-margin-remove-bottom">Front-End</h3>
+                            </div>
+                            <div class="uk-card-body">
+                                <div class="uk-flex uk-child-width-1-6 languageCardBody">
+                                    <div class="uk-text-center ">
+                                        <img src="Images/html5.png" />
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>html</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center ">
+                                        <img src="Images/css3.png" />
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>css</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center ">
+                                        <img src="Images/javascript.png" />
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>javascript</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center ">
+                                        <img src="Images/bootstrap.png" />
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>bootstrap</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center ">
+                                        <img src="Images/materialize.png" />
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>materialize</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center ">
+                                        <img src="Images/react.png" />
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>react</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-flex uk-child-width-1-6 languageCardBody">
+                                    <div class="uk-text-center ">
+                                        <img src="Images/JQuery.png" />
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>jquery</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
                     <div>
-                        <div class="uk-card uk-card-default uk-card-body">
-                            <p>HTML / CSS</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-default uk-card-body">
-                            <p>JAVASCRIPT</p>
-                        </div>
-                    </div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-header">
+                                <h3 class="uk-card-title uk-margin-remove-bottom">Back-End</h3>
+                            </div>
+                            <div class="uk-card-body">
+                                <div class="uk-flex uk-child-width-1-6 languageCardBody">
+                                    <div class="uk-text-center ">
+                                        <img src="Images/php.jpg" />
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>php</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center ">
+                                        <img src="Images/cakephp.png" />
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>cakephp</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center ">
+                                        <img src="Images/symfony.png" />
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>symfony</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center ">
+                                        <img src="Images/silex-logo.png" />
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>silex</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center ">
+                                        <img src="Images/elasticsearch.png" />
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>elasticsearch</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center ">
+                                        <img src="Images/rabbitmq.png" />
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>rabbitmq</p>
+                                        </div>
+                                    </div>
+                                </div>
 
-                    <div>
-                        <div class="uk-card uk-card-default uk-card-body">
-                            <p>REACT NATIVE</p>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="uk-panel uk-light uk-margin-medium">
-                    <h3>Mais aussi</h3>
-                    <span class="uk-badge">ReactJS</span>
-                    <span class="uk-badge">MySQL</span>
-                    <span class="uk-badge">MongoDB</span>
-                    <span class="uk-badge">ElasticSearch</span>
-                    <span class="uk-badge">JQuery</span>
-                    <span class="uk-badge">Silex</span>
-                    <span class="uk-badge">Docker</span>
-                    <span class="uk-badge">Linux</span>
-                    <span class="uk-badge">Git</span>
+                <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-header">
+                                <h3 class="uk-card-title uk-margin-remove-bottom">Base de données</h3>
+                            </div>
+                            <div class="uk-card-body">
+                                <div class="uk-flex uk-child-width-1-6 languageCardBody">
+                                    <div class="uk-text-center ">
+                                        <img src="Images/mysql.jpg" />
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>mysql</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center ">
+                                        <img src="Images/mongodb.png" />
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>mongodb</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
+                <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-header">
+                                <h3 class="uk-card-title uk-margin-remove-bottom">Autre</h3>
+                            </div>
+                            <div class="uk-card-body">
+                                <div class="uk-flex uk-child-width-1-6 languageCardBody">
+                                    <div class="uk-text-center ">
+                                        <img src="Images/git.png">
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>git</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center ">
+                                        <img src="Images/phpstorm.png">
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>phpstorm</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center ">
+                                        <img src="Images/github.png">
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>github</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center ">
+                                        <img src="Images/bitbucket.png">
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>bitbucket</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center ">
+                                        <img src="Images/jira.png">
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>jira</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center ">
+                                        <img src="Images/docker.png">
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>docker</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-flex uk-child-width-1-6 languageCardBody">
+                                    <div class="uk-text-center ">
+                                        <img src="Images/linux.png">
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>linux</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="uk-section uk-section-muted uk-preserve-color">
+        <div class="uk-section uk-section-muted uk-preserve-color" id="realisations">
             <div class="uk-container">
 
-                <div class="uk-panel uk-margin-medium">
+                <div class="uk-margin-medium uk-text-center">
                     <h3>Realisation</h3>
                 </div>
 
@@ -163,7 +362,7 @@
             </div>
         </div>
 
-        <div class="uk-section uk-section-primary uk-section-small">
+        <div class="uk-section uk-section-primary uk-section-small" id="contact">
             <div class="uk-container">
 
                 <div class="uk-grid-large uk-flex-middle uk-grid">
@@ -183,8 +382,8 @@
             </div>
         </div>
 
-        <div class="uk-section uk-section-secondary uk-section-xsmall" style="height: 50px">
-
+        <div class="uk-section uk-section-secondary uk-section-xsmall uk-padding-remove">
+            <p class="uk-text-muted uk-text-center">Youness Chetoui 2019&copy;. All rights reserved</p>
         </div>
 
         <script src="js/uikit.min.js"></script>
