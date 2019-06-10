@@ -1,18 +1,16 @@
 # Mon Portfolio
 
-Deuxième version de mon portfolio qui prèsente mon travail dans le développement web :
+Voici mon portfolio qui présente mon travail dans le développement web :
 
 https://yose216.github.io/
 
 ## Technologie utilisée
 
 + HTML5/CSS3
-+ JavaScript
-+ Bootstrap v3.3.6 (http://getbootstrap.com)
-+ Font-awesome v4.6.3 (http://fontawesome.io)
-+ jQuery v2.2.2 (http://www.jquery.com)
++ UIkit 3.1.5 (https://getuikit.com/)
 + Google fonts:
-    + Open Sans (https://fonts.google.com/specimen/Open+Sans)
+    + Roboto (https://fonts.google.com/specimen/Roboto)
+
    
 ### Contact 
 
@@ -20,4 +18,4 @@ https://yose216.github.io/
 
 -----------------
 
-<sup>Youness CHETOUI 2017© All rights reserved</sup>
+<sup>Youness CHETOUI 2019© All rights reserved</sup>

@@ -1,194 +1,491 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="fr">
 	<head>
 		<meta charset="utf-8" />
 		<meta http-equiv="x-ua-compatible" content="ie=edge"> <!-- Encore beaucoup utilisé -->
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 	
-		<title>Portfolio développeur web back-end | Youness Chetoui </title>	
-		<link rel="stylesheet" href="css/Font-awesome/css/font-awesome.min.css" />
-		<link rel="stylesheet" href="css/Bootstrap/css/bootstrap.min.css" />
+		<title>Portfolio développeur web | Youness Chetoui </title>
+        <link rel="stylesheet" href="css/uikit.min.css" />
         <link rel="stylesheet" href="css/style.css" />
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-91026090-1', 'auto');ga('send', 'pageview');
         </script>
 	</head>
 	<body>
-
-        <nav class="navbar navbar-inverse navbar-fixed-top nav-transparent" id="mynav">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span> 
-                    </button>
-                    <a class="navbar-brand" href="#home">Mon portfolio</a>
-                </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#comp">Mes compétences</a></li>
-                        <li><a href="#real">Mes réalisations</a></li>
-                        <li><a href="#cont">Contact</a></li>
-                    </ul>
+        <div class="uk-position-relative " id="home">
+            <div class="uk-background-cover uk-light uk-flex uk-flex-column" style="background-image: url('Images/bg.jpg'); height: 80vh;">
+                <div class="uk-text-center uk-margin-auto uk-margin-auto-vertical uk-width-1-2@s uk-padding-small captionHeader">
+                    <h1>Youness CHETOUI</h1>
+                    <p class="uk-text-lead text-white">Développeur web, spécialisé dans le PHP et les
+                        frameworks Symfony / CakePHP, parfaitement à
+                        l’aise avec le HTML / CSS / JavaScript et le
+                        développement d’application mobile React Native.
+                        Passionné du monde numérique, autodidacte et
+                        toujours à l'affût de l’actu web.
+                        J’aime lire, me tenir informé des dernières
+                        nouveautés mobiles / Android et suivre la NBA.</p>
                 </div>
             </div>
-        </nav>
+            <div class="uk-position-top">
+                <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: nav-scroll-background; cls-inactive: uk-navbar-transparent uk-light; top: 200">
+                    <!--  Menu pour largeur ecran > 960px -->
+                    <nav class="uk-navbar-container uk-visible@m" uk-navbar style="position: relative">
+                        <div class="uk-navbar-left">
+                            <ul class="uk-navbar-nav">
+                                <li class="uk-navbar-item "><a href="#home">Home</a></li>
+                                <li class="uk-navbar-item"><a href="#parcours">Parcours</a></li>
+                                <li class="uk-navbar-item"><a href="#competences">Compétences</a></li>
+                                <li class="uk-navbar-item"><a href="#realisations">Réalisations</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
 
-			<div id="home" class="home col-lg-12">
-				<article class="container-fluid">
-					<div class="row">
-						<div class="col-lg-3 col-lg-offset-2 col-sm-offset-3 col-sm-6">
-							<img src="Images/Youness.JPG" alt="" class="img-circle img-responsive" />
-						</div>
-						<div class="col-lg-6 col-xs-12 ">
-							<header>
-								<h1><strong>Youness CHETOUI</strong></h1>
-							</header>
-                            <p class="txtHome">Développeur web back-end chez wizdeo, spécialisé dans les frameworks Symfony et Silex, passionné du monde numérique et toujours à l'affut des dernières technologies. </p>
-						</div>
-					</div>
-				</article>
-			</div>
-
-			<div id ="comp" class="competence col-lg-12">
-				<article>
-					<header class="text-center">
-						<h2>Mes compétences</h2>
-						<p>Découvrez mes langages de programmation favoris que j'utilise au quotidien.</p>
-					</header>
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-lg-4 boxCompet">
-								<section class="box">
-									<img src="Images/html_css.png"/>
-									<h3>HTML/CSS</h3>
-									<p>Une bonne connaissance et une bonne maîtrise dans les deux langages standards du web.</p>
-								</section>
-							</div>
-							<div class="col-lg-4 boxCompet">
-								<section class="box">
-									<img src="Images/wordpress.png"/>
-									<h3>Wordpress</h3>
-									<p>Une bonne connaissance du CMS le plus connu du web, quelque projet réalisé sur Wordpress.</p>
-								</section>
-							</div>
-							<div class="col-lg-4 boxCompet">
-								<section class="box ">
-									<img src="Images/JQuery.png"/>
-									<h3>jQuery</h3>
-									<p>Une bonne connaissance d'un des plus connu framework JS, présent dans mes nombreux projets.</p>
-								</section>
-							</div>
-                            <div class="col-lg-4 boxCompet">
-								<section class="box ">
-									<img src="Images/symfony.png"/>
-									<h3>Symfony</h3>
-									<p>Le framework PHP que j'utilise le plus souvent, bon nombre de mes projets développé avec Symfony 3.</p>
-								</section>
-							</div>
-							<div class="col-lg-4 boxCompet">
-								<section class="box">
-									<img src="Images/silex-logo.png"/>
-									<h3>Silex</h3>
-									<p>Le petit frère de Symfony, quelque projet réalisé dessus, j'ai une très bonne connaissance de Silex.</p>
-								</section>
-							</div>
-							<div class="col-lg-4 boxCompet">
-								<section class="box">
-									<img src="Images/php.png"/>
-									<h3>PHP</h3>
-									<p>Le PHP, l'un des langages le plus connu et utilisé dans le web, présent dans tous mes projets.</p>
-								</section>
-							</div>
-						</div>
-					</div>
-				</article>
-			</div>
-            
-            <div id="real" class="col-lg-12 realisation">
-                <header class="text-center">
-				    <h2>Mes Réalisations</h2>
-				    <p>Découvrez quelques-uns de mes projets que j'ai réalisés seul ou en équipe. N'hésitez pas à visiter les sites web associés.</p>
-				</header>
-                    <div class="container-fluid">
-						<div class="row zoom-gallery">
-						<article class="col-lg-4">
-                            <div class="overlay">
-                            	<h3 class="titleReal">La bouée corsaire | <a href="https://github.com/Yose216/Bou-e_corsaire_projet.git" target="_blank">Link</a></h3>
+                <div uk-sticky="animation: uk-animation-slide-top; sel-target: #menu; cls-active: nav-scroll-background; cls-inactive: uk-navbar-transparent uk-light; top: 200">
+                    <!--  Menu pour largeur ecran < 960px -->
+                    <nav class="uk-navbar uk-navbar-container uk-box-shadow-medium uk-hidden@m" id="menu" uk-navbar>
+                        <div class="uk-navbar-left">
+                            <a class="uk-navbar-toggle" href="#" uk-toggle="target: #menu-mobile" uk-navbar-toggle-icon></a>
+                        </div>
+                    </nav>
+                    <div class="uk-offcanvas-content">
+                        <div id="menu-mobile" uk-offcanvas="mode: push; overlay: true">
+                            <div class="uk-offcanvas-bar">
+                                <button class="uk-offcanvas-close" type="button" uk-close></button>
+                                <ul class="uk-nav uk-nav-default">
+                                    <li class="uk-navbar-item"><a href="#home">Home</a></li>
+                                    <li class="uk-navbar-item"><a href="#parcours">Parcours</a></li>
+                                    <li class="uk-navbar-item"><a href="#competences">Compétences</a></li>
+                                    <li class="uk-navbar-item"><a href="#realisations">Réalisations</a></li>
+                                </ul>
                             </div>
-						</article>
-                        <article class="col-lg-4">
-                            <div class="overlay2">
-                            	<h3 class="titleReal">Blog Silex | <a href="https://github.com/Yose216/CMS_Silex.git" target="_blank">Link</a></h3>
-                            </div>
-						</article>
-                            <article class="col-lg-4">
-                            <div class="overlay3">
-                            	<h3 class="titleReal">Asrac | <a href="http://asrac.fr" target="_blank">Link</a></h3>
-                            </div>
-						</article>
-                        <article class="col-lg-4">
-                            <div class="overlay4">
-                            	<h3 class="titleReal">Smart app | <a href="https://github.com/Yose216/smart-app.git" target="_blank">Link</a></h3>
-                            </div>
-						</article>
-                        <article class="col-lg-4">
-                            <div class="overlay5">
-                            	<h3 class="titleReal">Create pro | <a href="https://github.com/Yose216" target="_blank">Link</a></h3>
-                            </div>
-						</article>
-                        <article class="col-lg-4">
-                            <div class="overlay6">
-                            	<h3 class="titleReal">Pastime | <a href="https://github.com/Yose216" target="_blank">Link</a></h3>
-                            </div>
-						</article>
-                        <article class="col-lg-4">
-                            <div class="overlay7">
-                            	<h3 class="titleReal">Theme bootstrap | <a href="https://github.com/Yose216" target="_blank">Link</a></h3>
-                            </div>
-						</article>
-                        <article class="col-lg-4">
-                            <div class="overlay8">
-                            	<h3 class="titleReal">Pomodoro | <a href="https://github.com/Yose216/js_pomodoro" target="_blank">Link</a></h3>
-                            </div>
-						</article>
-                        <article class="col-lg-4">
-                            <div class="overlay9">
-                            	<h3 class="titleReal">Ebullition | <a href="http://bazar-ebullition.fr/" target="_blank">Link</a></h3>
-                            </div>
-						</article>
-					   </div>
+                        </div>
                     </div>
                 </div>
-                
-                <div id="cont" class="col-lg-12 contact text-center">
-                    <header class="contactHeader">
-				        <h2>A propos de moi</h2>
-				        <p>Et retrouvez ci-dessous mon CV, mes réseaux sociaux et mon adresse e-mail, n'hésitez pas à me suivre ou à me contacter.</p>
-				    </header>
-					<section class="col-lg-offset-3 col-lg-6 mainContact">
-						<header class=" headSection">
-							<h3>Youness CHETOUI</h3>
-							<p>Développeur web back-end</p>
-                            <a href="PDF/Youness_Chetoui.pdf" target="_blank" class="btn btn-primary btn-lg" role="button" title="CV de youness chetoui">Mon CV</a>
-                        </header>
-						<footer class="col-lg-6 col-lg-offset-3">
-							<ul>
-								<li><a href="https://twitter.com/Youness_Chetoui" title="Twitter"><i class="fa fa-twitter fa-2x"></i></a></li>
-								<li><a href="https://fr.linkedin.com/in/youness-chetoui-70b296122" title="Linkedin"><i class="fa fa-linkedin fa-2x"></i></a></li>
-								<li><a href="https://github.com/Yose216" title="Github"><i class="fa fa-github fa-2x"></i></a></li>
-							</ul>
-                            <h3><a class="mailYou" href="mailto:youness.chetoui@gmail.com">youness.chetoui@gmail.com</a></h3>
-						</footer>
-					</section>
+            </div>
+        </div>
+
+        <div class="uk-section uk-section-muted uk-preserve-color" id="parcours">
+            <div class="uk-container">
+                <div class="uk-panel  uk-margin-medium">
+                    <h3 class="uk-margin-medium uk-text-center uk-heading-small">Mon parcours</h3>
                 </div>
-            <p class="col-lg-12 text-center footer">Youness Chetoui 2017&copy;. All rights reserved</p>
-        
-        <script src="js/jquery.min.js"></script>
-        <script src="css/Bootstrap/js/bootstrap.min.js"></script>
+                <ul class="timeline">
+                    <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="hexa"></span>
+                                <span class="flag">Wizdeo</span>
+                                <span class="time-wrapper"><span class="time">Octobre 2017-</span></span>
+                            </div>
+                            <div class="desc">Développement back-end sur la plateforme Wizdeo
+                                Analytics et de plusieurs sites connexes en
+                                CakePHP. Développement d’une application mobile
+                                IOS / Android en React Native.</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="direction-l">
+                            <div class="flag-wrapper">
+                                <span class="hexa"></span>
+                                <span class="flag">Mustapha LAABID</span>
+                                <span class="time-wrapper"><span class="time">Mai 2018</span></span>
+                            </div>
+                            <div class="desc">Développement complet d’un CMS en Symfony 3
+                                pour Mustapha LAABID (député de la première
+                                circonscription d’Ille et Vilaine).</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="hexa"></span>
+                                <span class="flag">AMA</span>
+                                <span class="time-wrapper"><span class="time">2017</span></span>
+                            </div>
+                            <div class="desc">Test fonctionnel, écritures de plans de tests, outil de gestion de bug (JIRA), base de donnée de test (TestLink).</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="direction-l">
+                            <div class="flag-wrapper">
+                                <span class="hexa"></span>
+                                <span class="flag">Code académie</span>
+                                <span class="time-wrapper"><span class="time">2016-2017</span></span>
+                            </div>
+                            <div class="desc">Formation bac +2 développeur web/mobile, conception et création d’application et site web.</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="hexa"></span>
+                                <span class="flag">BAC SEN</span>
+                                <span class="time-wrapper"><span class="time">2013-2015</span></span>
+                            </div>
+                            <div class="desc">Bac Systèmes Électroniques et Numériques,
+                                dépannage et installation d’appareils audio,
+                                vidéo et électroménager.</div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="uk-text-center uk-margin-large">
+                    <a class="uk-button button-primary" href="PDF/Youness_Chetoui.pdf" target="_blank">mon cv pdf</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-section background-color-primary uk-preserve-color" id="competences">
+            <div class="uk-container">
+
+                <div class="uk-light uk-margin-medium uk-text-center">
+                    <h3 class="uk-margin-medium uk-text-center uk-heading-small">Mes compétences</h3>
+                </div>
+
+                <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-header">
+                                <h3 class="uk-card-title uk-margin-remove-bottom">Front-End</h3>
+                            </div>
+                            <div class="uk-card-body">
+                                <div class="uk-grid uk-child-width-auto languageCardBody">
+                                    <div class="uk-text-center uk-width-expand@s">
+                                        <img src="Images/html5.png" alt="logo HTML5"/>
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>html</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center uk-width-expand@s">
+                                        <img src="Images/css3.png" alt="logo CSS3"/>
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>css</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center uk-width-expand@s">
+                                        <img src="Images/javascript.png" alt="logo JavaScript"/>
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>javascript</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center uk-width-expand@s">
+                                        <img src="Images/bootstrap.png" alt="logo Bootstrap"/>
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>bootstrap</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center uk-width-expand@s">
+                                        <img src="Images/materialize.png" alt="logo Materialize"/>
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>materialize</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center uk-width-expand@s">
+                                        <img src="Images/react.png" alt="logo React"/>
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>react</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-grid uk-child-width-auto  languageCardBody">
+                                    <div class="uk-text-center uk-width-1-6@s">
+                                        <img src="Images/JQuery.png" alt="logo JQuery"/>
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>jquery</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-header">
+                                <h3 class="uk-card-title uk-margin-remove-bottom">Back-End</h3>
+                            </div>
+                            <div class="uk-card-body">
+                                <div class="uk-grid uk-child-width-auto languageCardBody">
+                                    <div class="uk-text-center uk-width-expand@s">
+                                        <img src="Images/php.jpg" alt="logo PHP"/>
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>php</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center uk-width-expand@s">
+                                        <img src="Images/cakephp.png" alt="logo CakePHP"/>
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>cakephp</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center uk-width-expand@s">
+                                        <img src="Images/symfony.png" />
+                                        <div class="uk-text-uppercase uk-margin-medium-top" alt="logo Symfony">
+                                            <p>symfony</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center uk-width-expand@s">
+                                        <img src="Images/silex-logo.png" alt="logo Silex"/>
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>silex</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center uk-width-expand@s">
+                                        <img src="Images/elasticsearch.png" alt="logo ElasticSearch"/>
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>elasticsearch</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center uk-width-expand@s">
+                                        <img src="Images/rabbitmq.png" alt="logo RabbitMQ"/>
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>rabbitmq</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-header">
+                                <h3 class="uk-card-title uk-margin-remove-bottom">Base de données</h3>
+                            </div>
+                            <div class="uk-card-body">
+                                <div class="uk-grid uk-child-width-auto languageCardBody">
+                                    <div class="uk-text-center uk-width-1-6@s">
+                                        <img src="Images/mysql.jpg" alt="logo MySql"/>
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>mysql</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center uk-width-1-6@s">
+                                        <img src="Images/mongodb.png" alt="logo MongoDB"/>
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>mongodb</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-header">
+                                <h3 class="uk-card-title uk-margin-remove-bottom">Autre</h3>
+                            </div>
+                            <div class="uk-card-body">
+                                <div class="uk-grid uk-child-width-auto  languageCardBody">
+                                    <div class="uk-text-center uk-width-expand@s">
+                                        <img src="Images/git.png" alt="logo Git">
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>git</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center uk-width-expand@s">
+                                        <img src="Images/phpstorm.png" alt="logo PhpStorm">
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>phpstorm</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center uk-width-expand@s">
+                                        <img src="Images/github.png" alt="logo Github">
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>github</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center uk-width-expand@s">
+                                        <img src="Images/bitbucket.png" alt="logo BitBucket">
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>bitbucket</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center uk-width-expand@s">
+                                        <img src="Images/jira.png" alt="logo Jira">
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>jira</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center uk-width-expand@s">
+                                        <img src="Images/docker.png" alt="logo Docker">
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>docker</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-grid uk-child-width-auto  languageCardBody">
+                                    <div class="uk-text-center uk-width-1-6@s">
+                                        <img src="Images/linux.png" alt="logo Linux">
+                                        <div class="uk-text-uppercase uk-margin-medium-top">
+                                            <p>linux</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-section uk-background-cover uk-section-muted" id="realisations" >
+            <div class="uk-container">
+                <div class="uk-margin-medium uk-text-center">
+                    <h3 class="uk-margin-medium uk-text-center uk-heading-small">Mes réalisations</h3>
+                </div>
+
+                <div uk-slider="center: true">
+                    <div class="uk-position-relative uk-visible-toggle uk-light sliderRealisations" tabindex="-1">
+                        <ul class="uk-slider-items uk-child-width-1-2@s uk-grid" uk-height-match="target: > li > .uk-card">
+                            <li>
+                                <div class="uk-card uk-card-default uk-box-shadow-medium">
+                                    <div class="uk-card-media-top">
+                                        <img src="Images/wizdeo_analytics.png" alt="image site web Wizdeo Analytics">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title ">Wizdeo Analytics</h3>
+                                        <p>Outils d’analyse des données de chaînes ou compte YouTube, Facebook, Instagram et Twitter.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default uk-box-shadow-medium">
+                                    <div class="uk-card-media-top">
+                                        <img src="Images/wizapi.png" alt="image site web WizApi">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title ">WizAPI</h3>
+                                        <p>API REST de l’outil Wizdeo Analytics.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default uk-box-shadow-medium">
+                                    <div class="uk-card-media-top">
+                                        <img src="Images/copyrights_royalties.png" alt="image site web Revenus de droits d'auteur">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title ">Revenus de droits d'auteur</h3>
+                                        <p>Site d’inscription des ​ créateurs YouTube​ au service de droit d'auteur proposé par Wizdeo.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default uk-box-shadow-medium">
+                                    <div class="uk-card-media-top">
+                                        <img src="Images/talents.png" alt="image site web Wizdeo Talents">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">Wizdeo Talents</h3>
+                                        <p>Portfolios de de créateurs YouTube travaillant avec Wizdeo destinée aux marques et agences recherchant un ou plusieurs profils pour leur campagne de promotion.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default uk-box-shadow-medium">
+                                    <div class="uk-card-media-top uk-text-center" >
+                                        <img src="Images/wizapp.png" alt="image application mobile WizApp">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title ">WizApp</h3>
+                                        <p>Application mobile de proposition et suivie de campagne promotionnelle destinée aux créateurs
+                                            partenaire de Wizdeo.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default uk-box-shadow-medium">
+                                    <div class="uk-card-media-top">
+                                        <img src="Images/mustapha_laabid.png" alt="image site web Mustapha LAABID">
+                                    </div>
+                                    <div class="uk-card-body ">
+                                        <h3 class="uk-card-title">Mustapha LAABID</h3>
+                                        <p>Développement d’un CMS en Symfony 3 pour Mustapha LAABID (député de la première circonscription d’Ille et Vilaine).</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default uk-box-shadow-medium">
+                                    <div class="uk-card-media-top">
+                                        <img src="Images/boue.png" alt="image la bouée corsaire">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">Bouée corsaire</h3>
+                                        <p>la Bouée corsaire est une application web développée par la Code Académie qui permet de s'échanger des services contre du temps.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default uk-box-shadow-medium">
+                                    <div class="uk-card-media-top">
+                                        <img src="Images/asrac.png" alt="image asrac">
+                                    </div>
+                                    <div class="uk-card-body ">
+                                        <h3 class="uk-card-title">Asrac</h3>
+                                        <p>Site vitrine d'une association Rennaise développé au sein de la code académie.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default uk-box-shadow-medium">
+                                    <div class="uk-card-media-top">
+                                        <img src="Images/cmsYou.png" alt="image cms">
+                                    </div>
+                                    <div class="uk-card-body ">
+                                        <h3 class="uk-card-title">CMS Silex</h3>
+                                        <p>Reproduction d'un CMS avec la librairie Silex au sein de la code académie.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-section background-color-primary uk-section-small" id="contact">
+            <div class="uk-container">
+
+                <div class="uk-grid-large uk-flex-center uk-grid">
+                    <div class="uk-width-auto">
+                        <a href="mailto:youness.chetoui@gmail.com" uk-tooltip="youness.chetoui@gmail.com" uk-icon="icon: mail"></a>
+                    </div>
+                    <div class="uk-width-auto">
+                        <a href="tel:+33656805263" uk-icon="icon: receiver" uk-tooltip="+33656805263" ></a>
+                    </div>
+                    <div class="uk-width-auto">
+                        <a href="https://www.linkedin.com/in/youness-chetoui-70b296122/" target="_blank" uk-icon="icon: linkedin"></a>
+                    </div>
+                    <div class="uk-width-auto">
+                        <a href="https://twitter.com/Youness_Chetoui" target="_blank" uk-icon="icon: twitter"></a>
+                    </div>
+                    <div class="uk-width-auto">
+                        <a href="https://github.com/Yose216" target="_blank" uk-icon="icon: github"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-section uk-section-secondary uk-section-xsmall uk-padding-remove">
+            <p class="uk-text-muted uk-text-center">Youness Chetoui 2019&copy;. All rights reserved</p>
+        </div>
+
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+                crossorigin="anonymous"></script>
         <script src="js/main.js"></script>
     </body>
 </html>
