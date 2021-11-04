@@ -33,6 +33,12 @@
 .nav-scroll-background {
     background: #034C8C!important;
 }
+.uk-navbar-item > a {
+  color: #fff!important;
+}
+.uk-active > a {
+  color: #6695F2!important;
+}
 
 /** Timeline */
 .hexa{
